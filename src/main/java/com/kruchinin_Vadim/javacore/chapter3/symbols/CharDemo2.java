@@ -1,4 +1,4 @@
-package com.kruchinin_Vadim.javacore.chapter1_1;
+package com.kruchinin_Vadim.javacore.chapter3.symbols;
 
 // Символьные переменные ведут себя как целочисленные значения
 public class CharDemo2 {

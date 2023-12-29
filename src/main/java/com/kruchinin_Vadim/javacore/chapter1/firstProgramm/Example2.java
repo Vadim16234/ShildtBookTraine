@@ -1,4 +1,4 @@
-package com.kruchinin_Vadim.javacore.chapter1_1;
+package com.kruchinin_Vadim.javacore.chapter1.firstProgramm;
 
 public class Example2 {
     public static void main(String[] args) {

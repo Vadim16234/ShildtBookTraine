@@ -1,4 +1,4 @@
-package com.kruchinin_Vadim.javacore.chapter1_1;
+package com.kruchinin_Vadim.javacore.chapter2.operatorFor;
 
 public class ForTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.kruchinin_Vadim.javacore.chapter1_1;
+package com.kruchinin_Vadim.javacore.chapter3.bringingTypes;
 
 public class Promote {
     public static void main(String[] args) {
