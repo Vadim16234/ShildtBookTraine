@@ -15,4 +15,11 @@ public class Box {
     double volumeInBoxDemo4() {
         return width * height * depth;
     }
+
+    // установить размеры параллелепипеда
+    void setDim(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
 }
