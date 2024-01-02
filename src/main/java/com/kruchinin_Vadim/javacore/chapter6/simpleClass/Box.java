@@ -10,4 +10,9 @@ public class Box {
         System.out.print("Объем равен ");
         System.out.println(width * height * depth);
     }
+
+    // возвращает обьем параллелепипеда. Метод для класса BoxDemo4
+    double volumeInBoxDemo4() {
+        return width * height * depth;
+    }
 }
