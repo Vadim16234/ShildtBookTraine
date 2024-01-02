@@ -5,6 +5,14 @@ public class Box {
     double height;
     double depth;
 
+    // Это конструктор класса Box
+    Box() {
+        System.out.println("Конструирование объекта Box");
+        width = 10;
+        height = 10;
+        depth = 10;
+    }
+
     // вывести объем параллелепипеда. Метод для класса BoxDemo3
     void volume() {
         System.out.print("Объем равен ");
@@ -22,6 +30,4 @@ public class Box {
         height = h;
         depth = d;
     }
-
-
 }
