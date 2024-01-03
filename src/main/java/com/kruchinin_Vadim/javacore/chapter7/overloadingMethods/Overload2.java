@@ -12,3 +12,4 @@ public class Overload2 {
         ob.test2(123.2); // а звесь вызывается вариант метода test(double)
     }
 }
+
