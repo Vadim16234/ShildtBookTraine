@@ -17,3 +17,8 @@ public class RefDemo {
         System.out.println("Объем plainBox равен " + vol);
     }
 }
+/*
+    В данном примере элемент weightBox содержит ссылку на объекты класса BoxWeight, а элемент painBox -
+    ссылку на объекты класса Box. А поскольку BoxWeight - это подкласс, производный класса Box
+    то его элементу painBox можно присвоить ссылку на объект weightBox
+ */
