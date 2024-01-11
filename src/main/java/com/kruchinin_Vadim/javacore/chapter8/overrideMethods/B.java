@@ -12,4 +12,9 @@ class B extends A {
     void show() {
         System.out.println("k: " + k);
     }
+
+//    void show() {
+//        super.show(); // здесь вызывается метод show() из класса А
+//        System.out.println("k: " + k);
+//    }
 }
