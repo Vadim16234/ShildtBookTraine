@@ -1,7 +1,7 @@
 package com.kruchinin_Vadim.javacore.chapter15.lambdaOneParam;
 
 // Применение лямбда-выражения, принимающего один параментр
-public class LambdaDemo2 {
+class LambdaDemo2 {
     public static void main(String[] args) {
         // Лямбда-выражение, проверяющее, является ли число четным
         NumericTest isEven = (n) -> (n % 2) == 0;
