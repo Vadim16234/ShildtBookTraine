@@ -1,0 +1,18 @@
+package com.kruchinin_Vadim.javacore.chapter11.synchronizedMethods;
+
+class Caller implements Runnable{
+    String msg;
+    CallMe target;
+    Thread t;
+
+    public Caller(CallMe targ, String s) {
+        target = targ;
+        msg = s;
+        t = new Thread(this);
+        t.start();
+    }
+
+    public void run() {
+        target.call(msg);
+    }
+}
