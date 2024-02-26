@@ -2,7 +2,7 @@ package com.kruchinin_Vadim.javacore.chapter28.countDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 
-public class MyThread implements Runnable{
+class MyThread implements Runnable{
     CountDownLatch latch;
 
     MyThread(CountDownLatch c) {
